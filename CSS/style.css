@@ -71,6 +71,8 @@ nav li a{
     border-radius: 20px;
 }
 
+/* jumbotron */
+
 .jumbotron{
     background-image: url('../img/jumbo.png');
     background-size: cover;
@@ -96,9 +98,9 @@ nav li a{
 }
 
 .jumbo-cont a{
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin: 0 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
 }
 
@@ -116,6 +118,125 @@ nav li a{
     background-color: black;
 }
 
+/* main */
+
+section{
+    height: 450px;
+}
+
+.container-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-section h2{
+    font-size: 40px;
+}
+
+.layover{
+    height: 100%;
+    background-color: rgba(100,100,100,0.1);
+}
+
+.container-section p{
+    line-height: 1.6;
+}
+.part{
+    width: 50%;
+    padding: 50px;
+}
+
+.final{
+    text-align: center;
+}
+
+.bottone{
+    padding: 40px;
+}
+
+.bottone a{
+    background-color: rgba(8, 12, 255,0.4);
+    color: white;
+    padding: 15px 20px;
+    margin: 0 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.descr-container{
+    padding: 90px;
+}
+
+.container-section h3{
+    font-size: 28px;
+}
+
+
+/* footer */
+
+footer{
+    padding: 20px 0;
+    height: 400px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.top-footer{
+    height: 300px;
+    width: 100%;
+    border-bottom: 1px solid rgba(8,12, 255, 0.4);
+}
+
+.bottom-footer{
+    height: 100px;
+}
+
+.footer-section.main{
+    width: 28%;
+}
+
+.footer-section{
+    width: 18%;
+}
+
+.footer-section h3{
+    color: rgba(8, 12, 255,0.4);
+}
+
+footer img{
+    width: 10%;
+}
+
+.testo{
+    color: white;
+    padding: 5px 0;
+}
+
+.footer-section li{
+    color: white;
+    list-style: none;
+    line-height: 1.6;
+}
+
+li span{
+    color: rgba(8, 12, 255, 0.4);
+}
+
+.bottom-container{
+    position: relative;
+}
+
+.bottom-footer a{
+    background-color: rgba(8, 12, 255,0.4);
+    color: white;
+    padding: 15px 20px;
+    margin: 0 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* debug */
 
 /* .debug header{
@@ -144,12 +265,12 @@ nav li a{
     height: 410px;
 } */
 
-.debug main{
+/* .debug main{
     background-color: #abc;
     height:1000px;
-}
+} */
 
-.debug footer{
+/* .debug footer{
     background-color: #1ff;
     height: 200px;
-}
+} */
