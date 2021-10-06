@@ -8,8 +8,68 @@ header{
     height: 100px;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left{
+    float: left;
+}
+
+
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo,
+.accesso{
+    width: 25%;
+}
+
+nav{
+    width: 50%;
+}
+
+
+
+
 /* debug */
 
-header.debug{
+.debug header{
     background-color: red;
+}
+
+.debug .header-container{
+    background-color: green;
+    height: 100px;
+}
+
+.debug .header-container div{
+    background-color: blue;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.debug nav{
+    background-color: pink;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.debug .jumbotron{
+    background-color: green;
+    height: 500px;
+}
+
+.debug main{
+    background-color: #abc;
+    height:1000px;
+}
+
+.debug footer{
+    background-color: #1ff;
+    height: 200px;
 }
